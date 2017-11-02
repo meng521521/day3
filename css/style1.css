@@ -1,0 +1,27 @@
+body{
+    position: absolute;
+    width: 100%;
+    top:0;
+    bottom:0;
+    font-size: .12rem;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 40px;
+   border-bottom: 1px solid #ccc;
+}
+header ul{
+    width: 100%;
+    height: 40px;
+    display: -webkit-flex;
+}
+header ul li{
+   flex: 1;
+   text-align: center;
+   line-height: 40px;
+   margin-left: 15px;
+   margin-right: 15px;
+    
+}
